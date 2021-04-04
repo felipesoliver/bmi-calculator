@@ -1,0 +1,55 @@
+body {
+    color: #979797;
+}
+
+.container-calculator {
+    width: 100%;
+}
+
+.container-calculator h1 {
+    margin: 0 0 40px 0;
+    text-shadow: none;
+}
+
+.calculator {
+    width: 80%;
+}
+
+.calculator.denied {
+    animation: shake-responsive .6s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+}
+
+.calculator h2 {
+    color: #aaaaaa;
+}
+
+.calculator label {
+    font-size: 16px;
+}
+
+.input-default {
+    width: 70%;
+    font-size: 14px;
+}
+
+.info-fields {
+    font-size: 14px;
+}
+
+.info-fields input,
+.calculate-btn {
+    bottom: -70px;
+}
+
+.info-fields input {
+    right: 34px;
+}
+
+.calculate-btn {
+    left: 34px;
+}
+
+.results-container {
+    width: 80%;
+    font-size: 14px;
+}
